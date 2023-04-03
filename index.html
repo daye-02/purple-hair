@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="assets/img/icono-pruple.jpg" type="image/x-icon">
+    <title>Purple Hair</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i"
+        rel="stylesheet">
+
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <section id="topbar" class="d-flex align-items-center fixed-top topbar-transparent">
+        <div
+            class="container-fluid container-xl d-flex align-items-center justify-content-center justify-content-lg-start">
+            <i class="bi bi-phone d-flex align-items-center"><span>(+58) 412-120-8176</span></i>
+            <i class="bi bi-clock ms-4 d-none d-lg-flex align-items-center"><span>Martes a Domingo: 10:00 AM - 08:00
+                    PM</span></i>
+        </div>
+    </section>
+
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+            <div class="logo me-auto">
+                <h1><a href="index.html">Purple Hair</a></h1>
+            </div>
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
+                    <li><a class="nav-link scrollto" href="#about">Conócenos</a></li>
+                    <li><a class="nav-link scrollto" href="#menu">Servicios</a></li>
+                    <li><a class="nav-link scrollto" href="#chefs">Nuestro Equipo</a></li>
+                    <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- navegacion -->
+
+            <a href="#book-a-table" class="book-a-table-btn scrollto">Reservar Cita</a>
+        </div>
+    </header>
+
+
+    <section id="hero">
+        <div class="hero-container">
+            <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+                <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+                <div class="carousel-inner" role="listbox">
+
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg);">
+                        <div class="carousel-container">
+                            <div class="carousel-content">
+                                <h2 class="animate__animated animate__fadeInDown"><span>Purple Hair</span> Peluquería</h2>
+                                <p class="animate__animated animate__fadeInUp">Si deseeas un cambio en tu cabello, no dudes en venir a nuestra peluquería donde serás atendida(o) por nuestros profesionales en el área de peluquería en general, además de contar con un excelente servicio a la clientela, si eres cliente frecuente podrás disfrutar de nuestras promociones por ser cliente regular. </p>
+                                <div>
+                                    <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Ver
+                                        Servicios</a>
+                                    <a href="#book-a-table"
+                                        class="btn-book animate__animated animate__fadeInUp scrollto">Reservar Cita</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.webp);">
+                        <div class="carousel-container">
+                            <div class="carousel-content">
+                                <h2 class="animate__animated animate__fadeInDown">Expertos en crear momentos felices.
+                                </h2>
+                                <p class="animate__animated animate__fadeInUp">Cada vez que atendemos a un cliente nos aseguramos de que queden satisfechos con nuestro trabajo elaborado, para generarles confianza, calidad y seguridad a la hora de elegirnos como su peluquería de preferencia.</p>
+                                <div>
+                                    <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Ver
+                                        Servicios</a>
+                                    <a href="#book-a-table"
+                                        class="btn-book animate__animated animate__fadeInUp scrollto">Reservar Cita</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
+                        <div class="carousel-container">
+                            <div class="carousel-content">
+                                <h2 class="animate__animated animate__fadeInDown">Tu día comienza aquí</h2>
+                                <p class="animate__animated animate__fadeInUp">"Si sientes que cortarte y pintarte el cabello arreglará todos tus problemas, estás en lo correcto, así que no esperes más y ¡ve a por ello!"- Ana Coello.</p>
+                                <div>
+                                    <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Ver
+                                        Servicios</a>
+                                    <a href="#book-a-table"
+                                        class="btn-book animate__animated animate__fadeInUp scrollto">Reservar Cita</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+                </a>
+
+                <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <main id="main"></main>
+
+    <!-- ======= Nosotros ======= -->
+    <section id="about" class="about">
+        <div class="container-fluid">
+            <div class="section-title">
+                <h2>Conó<span>cenos</span></h2>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-5 align-items-stretch video-box"
+                    style='background-image: url("assets/img/nosotros.webp");'>
+                </div>
+
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
+
+                    <div class="content">
+                        <h3>¡Hola! te invitamos a conocer nuestra Historia.<strong> Ponte cómoda(o). </strong>
+                        </h3>
+                        <p>
+                            
+                            Purple Hair nace hace 1 año, gracias a Sharol García quien tenía el sueño de crear un espacio donde hombres, mujeres, niños y niñas pudieran cortar, pintar, peinar y arreglarse el cabello en un lugar cómodo y seguro.
+                        </p>
+                        <p class="fst-italic">
+                            De esta manera, nuestra peluquería ha ido creciendo progresivamente y hasta convertirse en lo que hoy es, compartiendo el mejor servicio e impulsando estos principios:
+                        </p>
+                        <ul>
+                            <li><i class="bx bx-check-double"></i>El cortarse el cabello cada 15 días ayuda a que crezca con más fuerza y mayor brillo.</li>
+                            <li><i class="bx bx-check-double"></i>Debemos manifestar nuestra esencia, como un buen color de cabello resaltando nuestro tono de piel.</li>
+                            <li><i class="bx bx-check-double"></i> No le temas al cambio, atrévete y siéntete libre de lucir como quieres.</li>
+                        </ul>
+                        <p>
+                            Bajo estos pilares, se ha construido con mucho amor para el mundo Purple Hair, ofreciendo siempre el mejor servicio, inspirando grandes ideas, motivando e impulsando emociones fuertes y vibrantes.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- Fin nosotros -->
+
+    <!-- ======= Servicios ======= -->
+    <section id="menu" class="menu">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Consulta Nuestros <span>Servicios</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="menu-flters">
+                        <li data-filter="*" class="filter-active">Todo</li>
+                        <li data-filter=".filter-starters">Cortes</li>
+                        <li data-filter=".filter-salads">Colores</li>
+                        <li data-filter=".filter-specialty">Planchados</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row menu-container">
+
+                <div class="col-lg-6 menu-item filter-starters">
+                    <div class="menu-content">
+                        <a href="#">Corte Largo</a><span>$5.00</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Para cabellos largos.
+                    </div>
+                </div>
+
+                <div class="col-lg-6 menu-item filter-specialty">
+                    <div class="menu-content">
+                        <a href="#">Planchado en cabellos largos</a><span>$7.95</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Éste planchado aplica para todo tipo de cabellos largos.
+                    </div>
+                </div>
+
+                <div class="col-lg-6 menu-item filter-starters">
+                    <div class="menu-content">
+                        <a href="#">Corte Medio</a><span>$3.50</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Para cabellos no tan largos ni tan cortos.
+                    </div>
+                </div>
+
+                <div class="col-lg-6 menu-item filter-salads">
+                    <div class="menu-content">
+                        <a href="#">Rojo</a><span>$8.40</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Éste color de cabello resalta en los tonos de piel blanca y morena.
+                    </div>
+                </div>
+
+                <div class="col-lg-6 menu-item filter-specialty">
+                    <div class="menu-content">
+                        <a href="#">Secado en cabellos largos</a><span>$6.24</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Éste secado igual aplica para cualquier tipo de cabello largo. 
+                    </div>
+                </div>
+
+                <div class="col-lg-6 menu-item filter-starters">
+                    <div class="menu-content">
+                        <a href="#">Cabello corto</a><span>$2.00</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Cabellos de hombres o mujeres cortos.
+                    </div>
+                </div>
+
+                <div class="col-lg-6 menu-item filter-salads">
+                    <div class="menu-content">
+                        <a href="#">Negro </a><span>$5.75</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Éste color resalta en todos los tonos de piel.
+                    </div>
+                </div>
+
+                <div class="col-lg-6 menu-item filter-salads">
+                    <div class="menu-content">
+                        <a href="#">Rubio </a><span>$15.50</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Para llegar al rubio se necesita decoloración y una buena base de tratamiento.
+                    </div>
+                </div>
+
+                <div class="col-lg-6 menu-item filter-specialty">
+                    <div class="menu-content">
+                        <a href="#">Rizado en cabellos largos</a><span>$10.00</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        El rizado aplica para cualquier tipo de cabello largo.
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- Fin Servicios -->
+
+    <!-- ======= Equipo ======= -->
+    <section id="chefs" class="chefs">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Nuestros Estilistas <span>Profesionales</span></h2>
+                <p>Este es el equipo, detrás de cada buen recuerdo que ha formado nuestra peluquería, quienes te ayudan a mejorar tu apariencia.</p>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="member">
+                        <div class="pic"><img src="assets/img/peluqueros/peluquera-1.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Hannah R'Bonney</h4>
+                            <span>Estilista </span>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="member">
+                        <div class="pic"><img src="assets/img/peluqueros/peluquera-2.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Julietta Sandoval</h4>
+                            <span>Estilista</span>
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="member">
+                        <div class="pic"><img src="assets/img/peluqueros/peluquera-3.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Jessie Howland</h4>
+                            <span>Estilista</span>
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- Fin Equipo-->
+
+
+    <!-- ======= Inicio Reservación ======= -->
+    <section id="book-a-table" class="book-a-table">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Reserva una <span> Cita</span></h2>
+                <p>Llena los campos del formulario para hacer tu reservación, si la misma no es pagada en un lapso de 24 hrs, será cancelada.</p>
+            </div>
+
+            <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Nombre"
+                            data-rule="minlen:4" data-msg="Porfavor ingrese más de 4 caracteres.">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Correo"
+                            data-rule="email" data-msg="Por favor, ingrese un correo válido">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                        <input type="text" class="form-control" name="phone" id="phone" placeholder="Número"
+                            data-rule="minlen:4" data-msg="Por favor ingrese un número válido">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group mt-3">
+                        <input type="text" name="date" class="form-control" id="date" placeholder="Fecha"
+                            data-rule="minlen:4" data-msg="Por favor ingrese más de 4 caracteres">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group mt-3">
+                        <input type="text" class="form-control" name="time" id="time" placeholder="Tiempo de Reserva"
+                            data-rule="minlen:4" data-msg="Por favor ingrese más de 4 caracteres">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group mt-3">
+                        <input type="number" class="form-control" name="people" id="people" placeholder="# de personas"
+                            data-rule="minlen:1" data-msg="Porfavor ingrese más de una persona.">
+                        <div class="validate"></div>
+                    </div>
+                </div>
+                <div class="form-group mt-3">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Mensaje"></textarea>
+                    <div class="validate"></div>
+                </div>
+                <div class="mb-3">
+                    <div class="loading">Cargando</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Su solicitud de reserva fue enviada. Le devolveremos la llamada o le enviaremos un correo electrónico a confirmar su reserva. ¡Gracias!</div>
+                </div>
+                <div class="text-center"><button type="submit">Reservar</button></div>
+            </form>
+
+        </div>
+    </section><!-- Fin Resevación-->
+
+    <!-- ======= Contacto ======= -->
+    <section id="contact" class="contact">
+        <div class="container">
+
+            <div class="section-title">
+                <h2><span>¿Que esperas?</span> ¡Contactanos!</h2>
+                <p>Acá te dejamos toda la información necesaria para contactarnos, te estamos esperando, ven a disfrutar de nuestros servicios.</p>
+            </div>
+        </div>
+
+        <div class="map">
+            <iframe style="border:0; width: 100%; height: 350px;"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.731431903072!2d-71.61385118620146!3d10.677942192388384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8998da52b20b29%3A0x4ebea6225d3d0f8d!2sPeluquer%C3%ADa!5e0!3m2!1ses-419!2sve!4v1680502323276!5m2!1ses-419!2sve"
+                frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="container mt-5">
+
+            <div class="info-wrap">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 info">
+                        <i class="bi bi-geo-alt"></i>
+                        <h4>Ubicación:</h4>
+                        <p>Maracaibo<br>Zulia, Calle 67.</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+                        <i class="bi bi-clock"></i>
+                        <h4>Horario:</h4>
+                        <p>Martes-Domingo:<br>10:00 AM - 08:00 PM</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+                        <i class="bi bi-envelope"></i>
+                        <h4>Correo:</h4>
+                        <p>purplehair.0211@gmail.com<br>infopurplehair@gmail.com</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+                        <i class="bi bi-phone"></i>
+                        <h4>Telefonos:</h4>
+                        <p>(+58) 412-120-8176<br>(+58) 414-686-5150</p>
+                    </div>
+                </div>
+            </div>
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
+                    </div>
+                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Correo" required>
+                    </div>
+                </div>
+                <div class="form-group mt-3">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
+                </div>
+                <div class="form-group mt-3">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
+                </div>
+                <div class="my-3">
+                    <div class="loading">Cargando</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Tu mensaje ha sido enviado. ¡Gracias!</div>
+                </div>
+                <div class="text-center"><button type="submit">Enviar</button></div>
+            </form>
+
+        </div>
+    </section><!-- Final contacto -->
+
+    </main>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <h3>Purple Hair</h3>
+            <div class="social-links">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+            <div class="copyright">
+                &copy; Copyright <strong><span>Dayerlin Lombana</span></strong>. Todos los derechos reservados.
+            </div>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                Diseñado con <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+
+    <script src="assets/js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
